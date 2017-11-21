@@ -1,0 +1,83 @@
+#mainLeftColumn {
+    min-width: 600px;
+    max-width: 600px;
+    height: 100%;
+    margin: auto;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+#panelSignIn .signInPanel {
+    overflow-y: hidden;
+    display: block;
+    position: relative;
+    height: 280px;
+}
+
+#mainLeftColumn .content {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #333;
+    zoom: 1;
+}
+
+#panelSignIn #BoxSignIn {
+    display: block;
+    float: left;
+    width: 260px;
+    padding: 0 20px;
+}
+
+#panelSignIn h2 {
+    line-height: 28px;
+    color: #333;
+    font-size: 18px;
+    font-family: "Gibson Regular",Helvetica,Arial,Verdana,sans-serif;
+    padding-bottom: 5px;
+}
+
+#panelSignIn input[type="text"], #panelSignIn input[type="email"], #panelSignIn input[type="password"] {
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 10px;
+    padding: 0px 9px 0px 9px;
+    border: 1px solid #ccc;
+    width: 240px;
+}
+
+#panelSignIn .buttonRow {
+    margin-top: 20px;
+    line-height: 50px;
+    text-align: right;
+    color: #333;
+}
+
+a {
+    color: #472a49;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#panelSignIn .buttonRow .button01 {
+    font-family: "Gibson Regular",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 16px;
+    color: #472a49;
+}
+
+.button01 {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff !important;
+    font-family: "Gibson Regular",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    background: #472a49;
+}
